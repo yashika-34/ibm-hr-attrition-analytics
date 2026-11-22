@@ -1,4 +1,13 @@
-# HR Analytics Dashboard with Employee Attrition Insights
+# 📊 IBM HR Analytics — Employee Attrition & Performance
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dataset-IBM%20HR%20Analytics-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Employees%20Analyzed-1470-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Attrition%20Rate-16.12%25-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Visualizations-10%2B-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Complete-success?style=for-the-badge" />
+</p>
 
 ## Project Overview
 
@@ -68,25 +77,27 @@ Dataset: IBM HR Analytics Employee Attrition Dataset
 ## Project Structure
 
 ```text
-HR_Analytics_Dashboard/
+IBM-HR-Analytics-Employee-Attrition-Performance/
 ├── dataset/
-│   └── HR_Analytics.csv
+│   └── HR_Analytics.csv          # IBM HR dataset (1470 employees, 35 features)
 ├── images/
+│   ├── Employee_Attrition_Distribution.png
+│   ├── Department_Wise_Attrition.png
 │   ├── department_attrition_rate.png
-│   ├── job_role_attrition_rate.png
+│   ├── Gender_VS_Attrition.png
+│   ├── OvertimeVSAttrition.png
 │   ├── overtime_attrition_rate.png
-│   ├── tenure_attrition_rate.png
+│   ├── Monthly_Income_Distribution.png
 │   ├── salary_vs_attrition.png
+│   ├── job_role_attrition_rate.png
+│   ├── tenure_attrition_rate.png
 │   └── satisfaction_by_attrition.png
 ├── notebooks/
-│   └── hr_analysis.py
-├── hr_analysis.py
-├── README.md
-├── requirements.txt
-├── model/
-├── powerbi/
-├── sql/
-└── venv/
+│   ├── hr_analysis.ipynb         # Jupyter notebook with full analysis
+│   └── hr_analysis.py            # Python script version
+├── hr_analysis.py                # Main analysis script
+├── requirements.txt              # Python dependencies
+└── README.md
 ```
 
 ---
@@ -327,7 +338,9 @@ This project highlights how HR analytics can transform raw employee data into ac
 
 **Yashika Garg**
 
-B.E. CSE (AI & ML)
+B.E. CSE (AI & ML) | Chitkara University
+- GitHub: [@yashika-34](https://github.com/yashika-34)
+- Email: gargy0189@gmail.com
 
-Chitkara University
+*Turning workforce data into retention strategy.* 📊
 
